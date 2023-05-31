@@ -2,7 +2,7 @@ const mongoose=require('mongoose');
 const emailValidator=require('email-validator');
 const bcrypt=require('bcrypt');
 const crypto=require('crypto');
-const db_link='mongodb+srv://admin:7Dld6QnGQhqCz8ZW@cluster0.gtdrl.mongodb.net/?retryWrites=true&w=majority';
+const db_link="";
 mongoose.connect(db_link)
 .then(function(db){
   // console.log(db);
